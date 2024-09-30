@@ -6,15 +6,17 @@ int main()
 INICIO
 printf(“\Diseño de algoritmos”);
 printf(“\División en pseudocódigo”);
+
+int;
 ALGORITMO DIVISION
 
+printf(“División”
 ESCRIBIR(“Introduce dos números: ˮ);
+printf(“Introduce dividendo y divisor”);
 LEER(Numero1, Numero2);
 
-Resultado <- Numero1 + Numero2;
+Resultado = <Numero1 / Numero2;
 ESCRIBIR(“La suma es:ˮ, Resultado);
-
-
+return (0)
 FIN
-return (0);
 }
