@@ -1,0 +1,20 @@
+/* División en pseudocódigo - Undidad 2 - Actividad 3 - José Antonio García Sandoval */
+/* incluye biblioteca donde se define E/S */
+#include <stdio.h>
+int main()
+{
+INICIO
+printf(“\Diseño de algoritmos”);
+printf(“\División en pseudocódigo”);
+ALGORITMO DIVISION
+
+ESCRIBIR(“Introduce dos números: ˮ);
+LEER(Numero1, Numero2);
+
+Resultado <- Numero1 + Numero2;
+ESCRIBIR(“La suma es:ˮ, Resultado);
+
+
+FIN
+return (0);
+}
