@@ -3,20 +3,23 @@
 #include <stdio.h>
 int main()
 {
-INICIO
-printf(“\Diseño de algoritmos”);
-printf(“\División en pseudocódigo”);
+    float num1, num2, resultado;
 
-int;
-ALGORITMO DIVISION
+    // Solicitar el primer número
+    printf("Ingrese el primer número (numerador): ");
+    scanf("%f", &num1);
 
-printf(“División”
-ESCRIBIR(“Introduce dos números: ˮ);
-printf(“Introduce dividendo y divisor”);
-LEER(Numero1, Numero2);
+    // Solicitar el segundo número
+    printf("Ingrese el segundo número (denominador): ");
+    scanf("%f", &num2);
 
-Resultado = <Numero1 / Numero2;
-ESCRIBIR(“La suma es:ˮ, Resultado);
-return (0)
-FIN
+    // Verificar si el denominador es cero
+    if (num2 == 0) {
+        printf("Error: No se puede dividir entre cero.\n");
+    } else {
+        resultado = num1 / num2;
+        printf("El resultado de la división es: %.2f\n", resultado);
+    }
+
+    return 0;
 }
